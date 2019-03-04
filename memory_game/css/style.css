@@ -1,28 +1,43 @@
 body{
     text-align: center;
+    margin: 0;
 }
+header{
+    background-color: #f15b31;
+    color: #ffffff;
+    padding: 30px 20px;
+}
+
 h1 {
     font-family: "Raleway", sans-serif;
-    color: #0d2c40;
     letter-spacing: 1px;
     font-weight: 400;
     font-size: 45px;
     text-transform: uppercase;
+    margin: 0;
 }
-hr{
-    border-width: 5px;
+
+nav{
+    background-color: #00a6b3;
+    padding: 20px 0;
 }
 
 .topLink{
-    color:#f15b31;
+    color: #ffffff;
     font-family: "Raleway", sans-serif;
-    font-weight: 600px;
     letter-spacing: 1px;
     font-size:18px;
     text-transform: uppercase;
     text-decoration: none;
     padding: 10px;
+    margin: 0px 20px;
 }
+
+main{
+    width: 800px;
+    margin: 35px auto;
+}
+
 p {
     font-family: "Droid Serif", sans-serif;
     font-size: 18px;
@@ -37,6 +52,11 @@ h2 {
     font-size: 20px;
     text-transform: uppercase;
 }
+
+img{
+    margin: 40px 8px 0 8px;
+}
+
 .social{
     list-style: none;
     text-decoration: none;
