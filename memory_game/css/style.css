@@ -66,3 +66,41 @@ li{
     display: inline;
     padding: 10px;
 }
+
+.copyright {
+ float: left;
+}
+
+.message {
+    float: right;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    font-size: 0;
+    }
+
+footer {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    padding: 0px 20px;
+    background-color: #0d2c40;
+    color: #ffffff;
+    letter-spacing: .08em;
+    font-weight: 500px;
+}
+
+.name {
+    color: #f15b31;
+    font-weight: 700;
+}
+
+a:hover {
+    border-bottom: 2px solid transparent;
+    border-color: #ffffff;
+    background-color: #f15b31;
+}
