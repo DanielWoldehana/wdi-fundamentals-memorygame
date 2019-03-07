@@ -1,8 +1,8 @@
-body{
+body {
     text-align: center;
     margin: 0;
 }
-header{
+header {
     background-color: #f15b31;
     color: #ffffff;
     padding: 30px 20px;
@@ -17,12 +17,12 @@ h1 {
     margin: 0;
 }
 
-nav{
+nav {
     background-color: #00a6b3;
     padding: 20px 0;
 }
 
-.topLink{
+.topLink {
     color: #ffffff;
     font-family: "Raleway", sans-serif;
     letter-spacing: 1px;
@@ -33,7 +33,7 @@ nav{
     margin: 0px 20px;
 }
 
-main{
+main {
     width: 800px;
     margin: 35px auto;
 }
@@ -53,16 +53,20 @@ h2 {
     text-transform: uppercase;
 }
 
-img{
+img {
     margin: 40px 8px 0 8px;
 }
 
-.social{
+.cards {
+    margin-bottom: 75px;
+}
+
+.social {
     list-style: none;
     text-decoration: none;
     color: #e68989;
 }
-li{
+li {
     display: inline;
     padding: 10px;
 }
@@ -85,6 +89,7 @@ li{
     }
 
 footer {
+    
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     padding: 0px 20px;
